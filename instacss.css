@@ -1,0 +1,150 @@
+.main {
+  margin-top: 15px;
+  font-size: 14px;
+  margin-top: 15px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+  
+  .image{
+    margin-top:-10px;
+    margin-bottom: -30px;
+  }
+  .fbox {
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid #e6e6e6;
+    border-radius: 1px;
+    margin: 0 0 10px;
+    padding: 10px 0;
+    flex-grow: 1;
+  }
+  
+  .login {
+    margin-left: 50px;
+    margin-top:5px;
+    font-size: 14px;
+    width: 70%;
+    border:2px solid #e6e6e6;
+    outline-color: #000000;
+    
+  }
+.login::placeholder {
+  color:rgb(104, 95, 95);
+  font-weight:500;
+}
+  input {
+    padding: 9px 0px 7px 9px;
+    font-size: 12px;
+    width: 16rem;
+    height: 1.2rem;
+    outline: none;
+    background: #fafafa;
+    border-radius: 3px;
+    border: 1px solid #e6e6e6;
+    margin-top: 5px;
+  }
+
+  
+   .lb {
+    text-align: center;
+    width: 74%;
+    padding: 0.6rem;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    margin-top: 18px;
+    margin-left: 50px;
+  }
+  .lb:hover{
+    background-color: #71b6f7;
+    color: #fff;
+  }
+  
+  .l {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .line2 {
+    flex-grow: 1;
+    height: 0px;
+    border-top: 2.1px solid #ffffff;
+    max-width: 50px;
+    
+    
+  }
+  
+  .line {
+    flex-grow: 1;
+    height: 0px;
+    border-top: 2.1px solid #dfdfdf;
+    max-width: 125px;
+    
+  }
+  
+  .or {
+    margin: 0 10px;
+    font-weight: bold;
+    color:rgb(136, 127, 127);
+    font-size:17px;
+  }
+  .fbp {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .fb {
+    margin: 1rem;
+    border: 0;
+    cursor: pointer;
+    font-size: 18px;
+    color: #385185;
+    font-weight: 600;
+    background: transparent;
+  }
+  
+  .fp{
+    font-size: 17px;
+    color: #002d5a;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .signup1{
+    color:#000000;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .signup {
+    color: #1d85e5;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+  }
+  .sbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 380px; /* Adjust the width as needed */
+    width: 100%;
+    height: 60px; /* Adjust the height as needed */
+    border: 2px solid #e6e6e6; /* Adjust the border properties as needed */
+    padding: 10px;
+  }
